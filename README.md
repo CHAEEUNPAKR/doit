@@ -1,46 +1,21 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# < Todo Application : do it! >
 
-## Getting Started
+#### 📆 이 프로젝트는 React와 TypeScript를 활용하여 제작된 Todo 관리 웹페이지 입니다! 
 
-First, run the development server:
+모든 사용자가 사용하기 쉬운 UI와 기능들로 이루어져 있습니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+반응형 웹 디자인을 적용하여 웹, 태블릿, 모바일 다양한 화면 크기에서 원활히 작동하도록 설계되었습니다. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### 🧩 do it! 사용 설명
+---
+1. 홈 화면에서 할 일을 추가하기
+2. 할 일 / 다한 일 체크하기
+3. 일 제목을 클릭해 상세정보 보기
+4. 제목, 사진, 메모, 상태 등을 수정하거나 일 삭제하기
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
-=======
-# do_it
-Next.js와 type script를 이용한 todo 웹사이트
->>>>>>> 505b84bf03696396130498057a91952dcf176767
-# doit
+### 👩‍💻 기술 스택
+Frontend Framework: React, TypeScript
+Styling: Styled-components
+반응형 디자인: CSS Media Queries, Styled-components Breakpoints
+빌드 및 배포: Vercel
