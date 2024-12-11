@@ -16,7 +16,7 @@ export const TodoListsContainer = styled.div`
 export const TodoListWrapper = styled.div`
 min-width: 550px;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   position: sticky;
@@ -24,10 +24,10 @@ min-width: 550px;
     margin: 0 10px;
   }
   @media (min-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    min-height: 20vh;
+    height: 20vh;
   }
   @media (min-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    min-height: 20vh;
+    height: 20vh;
   }
 `;
 

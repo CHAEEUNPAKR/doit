@@ -123,16 +123,16 @@ const TaskDetailPage = () => {
 
           <S.ImageMemoContainer>
             <S.ImageView>
-              <Image src="/img.svg" width={64} height={64} alt="img" />
-              {imageUrl && (
-                // eslint-disable-next-line @next/next/no-img-element
-                <S.TaskImage
-                  src={imageUrl}
-                  alt="Preview"
-                />
+              {imageUrl ? (
+                // 이미지 URL이 있는 경우 해당 이미지를 표시
+                <S.TaskImage src={imageUrl} alt="Preview" />
+              ) : (
+                // 이미지 URL이 없는 경우 기본 이미지를 표시
+                <S.TaskImage src="/img.svg" alt="Default Image" />
               )}
               <ImageUploader onImageUpload={handleImageUpload} />
             </S.ImageView>
+
             <S.MemoContainer>
               <S.MemoTitle>Memo</S.MemoTitle>
               <S.MemoTextarea
