@@ -1,46 +1,51 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# < Todo Application : do it! >
 
-## Getting Started
+#### 📆 이 프로젝트는 React와 TypeScript를 활용하여 제작된 Todo 관리 웹페이지 입니다! 
 
-First, run the development server:
+모든 사용자가 사용하기 쉬운 UI와 기능들로 이루어져 할 일을 관리하기에 쉽습니다!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+반응형 웹 디자인을 적용하여 웹, 태블릿, 모바일 다양한 화면 크기에서 원활히 작동하도록 설계되었습니다. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+#### 🔧 할 일 관리 기능
+>* 할 일 목록 조회
+>* 새로운 할 일 추가
+>* 체크박스를 통한 완료 상태 표시
+>* 할 일 수정 및 삭제
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🧩 do it! 사용 설명
+1. 홈 화면에서 할 일을 추가하기
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+![메인화면](https://github.com/CHAEEUNPAKR/doit/blob/main/%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.png)
+![할일추가](https://github.com/CHAEEUNPAKR/doit/blob/main/%ED%95%A0%20%EC%9D%BC%20%EC%B6%94%EA%B0%80.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. 할 일 / 다한 일 상태 체크하기
 
-## Learn More
+![상태체크](https://github.com/CHAEEUNPAKR/doit/blob/main/%ED%95%A0%20%EC%9D%BC%20%EC%83%81%ED%83%9C%20%EB%B3%80%EA%B2%BD.png)
 
-To learn more about Next.js, take a look at the following resources:
+3. 일 제목을 클릭해 상세정보 보기 & 제목, 사진, 메모, 상태 등을 수정하거나 할 일 삭제하기
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+![상세정보](https://github.com/CHAEEUNPAKR/doit/blob/main/%EC%83%81%EC%84%B8%EB%B3%B4%EA%B8%B0%20%EB%B0%8F%20%EC%88%98%EC%A0%95.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🖥️ 다양한 크기의 화면에서도 쉽게 사용 가능한 UI
+DO IT!은 웹, 태블릿, 모바일에서 최적화된 UI로 사용이 가능합니다.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
-=======
-# do_it
-Next.js와 type script를 이용한 todo 웹사이트
->>>>>>> 505b84bf03696396130498057a91952dcf176767
-# doit
+* 웹
+  
+![웹](https://github.com/CHAEEUNPAKR/doit/blob/main/%EC%9B%B9.png)
+
+* 태블릿
+  
+![태블릿](https://github.com/CHAEEUNPAKR/doit/blob/main/%ED%83%9C%EB%B8%94%EB%A6%BF.png)
+
+* 모바일
+  
+![모바일](https://github.com/CHAEEUNPAKR/doit/blob/main/%EB%AA%A8%EB%B0%94%EC%9D%BC.png)
+
+### 👩‍💻 기술 스택
+Frontend Framework: React, TypeScript
+Styling: Styled-components
+반응형 디자인: CSS Media Queries, Styled-components Breakpoints
+빌드 및 배포: Vercel
