@@ -1,7 +1,7 @@
 # < Todo Application : do it! >
 https://doit-chaes-projects-5b798075.vercel.app/
 
-#### 📆 이 프로젝트는 React와 TypeScript를 활용하여 제작된 Todo 관리 웹페이지 입니다! 
+#### 📆 이 프로젝트는 Next.js와 TypeScript를 활용하여 제작된 Todo 관리 웹페이지 입니다! 
 
 모든 사용자가 사용하기 쉬운 UI와 기능들로 이루어져 할 일을 관리하기에 쉽습니다!
 
@@ -46,7 +46,7 @@ DO IT!은 웹, 태블릿, 모바일에서 최적화된 UI로 사용이 가능합
 ![모바일](https://github.com/CHAEEUNPAKR/doit/blob/main/%EB%AA%A8%EB%B0%94%EC%9D%BC.png)
 
 ### 👩‍💻 기술 스택
-Frontend Framework: React, TypeScript
+Frontend Framework: Next.js, TypeScript
 
 Styling: Styled-components
 
