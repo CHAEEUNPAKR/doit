@@ -124,12 +124,13 @@ const TaskDetailPage = () => {
           <S.ImageMemoContainer>
             <S.ImageView>
               {imageUrl ? (
-                // 이미지 URL이 있는 경우 해당 이미지를 표시
+                // imageUrl이 있는 경우 해당 이미지
                 <S.TaskImage src={imageUrl} alt="Preview" />
               ) : (
-                // 이미지 URL이 없는 경우 기본 이미지를 표시
-                <S.TaskImage src="/img.svg" alt="Default Image" />
+                // imageUrl이 없는 경우 기본 이미지
+                <Image src="/img.svg" alt="Default Image" height={64} width={64} />
               )}
+
               <ImageUploader onImageUpload={handleImageUpload} />
             </S.ImageView>
 
